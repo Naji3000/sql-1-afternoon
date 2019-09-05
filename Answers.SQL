@@ -149,6 +149,9 @@ SELECT MAX(total) FROM invoice
 SELECT MIN(total) FROM invoice
 
 
+SELECT * FROM invoice WHERE total > 5
+
+
 SELECT count(*) FROM invoice WHERE total < 5
 
 
